@@ -63,7 +63,7 @@
   left: 64px;
   bottom: 30px;
   text-decoration: none;
-  color:#2f80ed
+  color:#2f80ed;
 }
 
 .header__main-illustration{
@@ -228,7 +228,7 @@ p{
 
 .feynman__link{
   position: absolute;
-  color: #f2f80ed;
+  color: #2f80ed;
   height: 51px;
   line-height: 51px;
   font-size: 36px;
