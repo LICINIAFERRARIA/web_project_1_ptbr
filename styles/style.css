@@ -259,6 +259,9 @@ p{
   display: inline-block;
   height: auto;
   margin: 0;
+  list-style-type: none;
+  display: table-cell;
+  position: relative;
 }
 
 .table_theme_dark{
