@@ -11,20 +11,10 @@
     right: -124px;
     width: 660px;
     height: 636px;
-  }
-  
-  .table__cell_theme_dark{
-    z-index: 1;
-    width: 200px;
-    list-style-type: none;
-    position: relative;
-  }
-  
-  .table__theme_dark{
-    margin-bottom: 90px;
-    width: 1100px;
-    margin-top: 80px;
-    z-index: 1;
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
   
   .section-title_theme_dark{
@@ -48,6 +38,20 @@
     margin: 0;
   }
   
+  .table__theme_dark{
+    margin-bottom: 90px;
+    width: 1100px;
+    margin-top: 80px;
+    z-index: 1;
+  }
+
+  .table__cell_theme_dark{
+    z-index: 1;
+    width: 200px;
+    list-style-type: none;
+    position: relative;
+  }
+
   .table__heading_theme_dark{
     line-height: 1.15;
     font-size: 24px;

@@ -34,13 +34,13 @@
     z-index: 1;
   }
  
-  .heading{
+  .table__heading{
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
   }
   
-  .text{
+  .table__text{
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;

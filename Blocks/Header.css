@@ -36,6 +36,8 @@
     bottom: 30px;
     text-decoration: none;
     color:#2f80ed;
+    transition: 1s ease-out;
+
   }
   
   .header__main-illustration{
@@ -57,7 +59,11 @@
     z-index: 0;
     right: 0;
     bottom: 0;
-    transform: rotate(-45deg);
+    rotate: -15deg;
+    animation-name: rotation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
   }
 
 /* including elements with key-value modifiers */
