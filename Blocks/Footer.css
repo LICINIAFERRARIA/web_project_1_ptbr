@@ -52,19 +52,19 @@
     position: absolute;
   }
   
-  .footer__social_icons{
+  .footer__social-icons{
     width: 16px;
     height: 16px;
     margin-right: 10px;
   }
   
-  .footer__column_link{
+  .footer__column-link{
     text-decoration: none;
     color: white;
     transition: 2s ease-out;
   }
 
-  .footer__column_link:hover{
+  .footer__column-link:hover{
     opacity: 0.5;
   }
   
