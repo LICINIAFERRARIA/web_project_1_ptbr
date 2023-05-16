@@ -1,7 +1,17 @@
-@import url("/Blocos/Header.css");
-@import url("/Blocos/Logo.css");
-@import url("/Blocos/Rotation.css");
-@import url("/Blocos/Footer.css");
+@import url(../Vendor/normalize.css);
+@import url(../Blocks/Header.css);
+@import url(../Blocks/Description.css);
+@import url(../Blocks/Techniques.css);
+@import url(../Blocks/Video.css);
+@import url(../Blocks/Oakley.css);
+@import url(../Blocks/Feynman.css);
+@import url(../Blocks/Digits.css);
+@import url(../Blocks/Khan.css);
+@import url(../Blocks/Kaufman.css);
+@import url(../Blocks/Resources.css);
+@import url(../Blocks/Footer.css);
+@import url(../Blocks/Rotation.css);
+@import url(../Blocks/Logo.css);
 
 
 .page {

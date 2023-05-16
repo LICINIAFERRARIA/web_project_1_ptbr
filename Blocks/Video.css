@@ -1,0 +1,13 @@
+.video{
+    top: 100px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-color: grey;
+    border-left: 160px;
+  }
+
+  .iframes{
+    margin-top: 50px;
+  }
