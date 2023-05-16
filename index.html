@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aprendendo a aprender</title>
   <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./Page/index.css" type="text/css">
 </head>
 
 <body>
@@ -17,9 +17,10 @@
       <p class="header__subtitle">As técnicas de aprendizado mais eficazes que você pode aplicar ao seu cotidiano</p>
       <a class="header__link" href="#">Saiba mais &rarr;</a>
 
-      <div class="header header__square"></div>
+      <div class="header header__square rotation"></div>
       <img class="header header__main-illustration" src="images/header-image.png"
         alt="person without face on the grass">
+
     </header>
     <main class="content">
       <section class="description">
@@ -42,6 +43,76 @@
               segredos do aprendizado eficaz.</p>
           </div>
         </div> 
+      </section>
+
+      <section class="techniques"> <!--digits--> 
+        <div class="title">
+          <h2>Aprender Técnicas</h2>
+        </div>
+        <section class="subtitle">
+          <h3>As Cinco estratégias de Barbara Oakley</h3>
+        </section>
+        <ul class="cards"> <!--table-->
+          <li class="cards__item"><!--table__cell-->
+            <img class="cards__image" src="images/cards-attention.png" alt="Capa de livro">
+            <h4 class="cards__title">As duas maneiras de pensar</h4><!--heading-->
+            <p class="cards__description">Uma compreensão profunda surge da capacidade de alternar entre o pensamento difuso e o focado.</p><!--text-->
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-recall.png" alt="Escultura">
+            <h4 class="cards__title">Recordar</h4>
+            <p class="cards__description">Melhorar sua capacidade de para recordar pequenas informações importantes ajuda a conectar diferentes partes do cérebro.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-interleaving.png" alt="Foto de uma sala de museo">
+            <h4 class="cards__title">Intercalar</h4>
+            <p class="cards__description">Quando você aprende diferentes habilidades ao mesmo tempo, elas fortalecem umas às outras.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-question.png" alt="Uma pessoa sozinha em uma sala de exposicao de arte">
+            <h4 class="cards__title">Questões </h4>
+            <p class="cards__description">Quando estiver escutando seu professor, pense em uma boa pergunta, algo que você realmente gostaria de saber.</p>
+          </li>
+          <li class="cards__item">
+            <img class="cards__image" src="images/cards-competence.png" alt="Uma mao segurando livros">
+            <h4 class="cards__title">Ilusão da Competência</h4>
+            <p class="cards__description">Teste a si mesmo, anote, fale com outra pessoa e repita o processo de diferentes situações. Somente assim você vai ter certeza de que entendeu alguma coisa.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="video">
+        <div class="title">
+          <h2>Conversas TED</h2>
+        </div>
+        <div class="subtitle">
+          <h3>Para os amantes da procrastinação</h3>
+        </div>
+          <iframe class="iframes" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>      
+          <iframe class="iframes" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+
+      <section class="Oakley">
+        <div class="two-columns">
+          <div class="two-columns__brief">A história de Barbara Oakley.</div>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">A matemática não veio naturalmente para Barbara na infância. Ela se identificava mais com ciências humanas,
+             e que não era muito brilhante nisso. Com o objetivo de se especializar em linguística, após terminar seus 
+             estudos, ela se alistou no Exército, que a enviou para aprender russo. Após vários anos de serviço, tornando-se 
+             capitã, Barbara deixou o Exército e decidiu estudar engenharia. Foi nesta época que ela desenvolveu a 
+             metodologia de aprendizagem, pois precisou reprogramar seu cérebro para um tipo diferente de aprendizagem.
+             Quando algo não ocorre naturalmente, então é preciso trabalhar duro para obter o conhecimento que outras 
+             pessoas podem obter rapidamente, dando assim uma visão mais profunda e abrangente do assunto.</p>
+          </div>
+        </div> 
+      </section>
+
+      <section class="feynman">
+        <img class="feynman__image" src="images/feynman.png" alt="Foto de Richard Feynman o fisico quântico">
+        <div class="feynman__title">A Técnica de Feynman</div>
+        <div class="feynman__subtitle">Aprender sem esquecer</div>
+        <a href="#" class="feynman__link">Mais &rarr;</a>
       </section>
 
       <section class="digits">
@@ -89,12 +160,23 @@
           </li>
         </ul>
       </section>
-      <section class="feynman">
-        <img class="feynman__image" src="images/feynman.png" alt="Foto de Richard Feynman o fisico quântico">
-        <div class="feynman__title">A Técnica de Feynman</div>
-        <div class="feynman__subtitle">Aprender sem esquecer</div>
-        <a href="#" class="feynman__link">Mais &rarr;</a>
-      </section>
+
+      <section class="khan__container">
+        <h3 class="khan__author">Salman Khan </h3>
+        <h2 class="khan__title">The One World Schoolhouse</h2>
+        <div class="khan__quote">
+          <p>A paixão e inovação de Sal Khan é transformar o aprendizado para milhões de estudantes no
+           mundo todo. O livro The One World Schoolhouse é uma leitura obrigatória para quem quer
+           melhorar a educação e que os estudantes habilidades e conhecimentos necessários na escola, na
+           carreira, e na vida em geral.</p>
+        </div>
+          <h3 class="khan__quote-author">George Lucas</h3>
+          <h3 class="khan__quote-author-subline">Diretor</h3>
+        <div class="khan__book-container">
+          <img class="khan__book-pic" src="images/khan-book-2.png" alt="The One">
+          <a class="khan__buy-ink" href="#">Comprar &rarr;</a>
+        </div>
+  </section>
       
       <section class="kaufman">
         <img class="kaufman__triangle" src="images/kaufman-triangle.svg" alt="Forma geometrica-Triangulo">
@@ -142,6 +224,18 @@
             <p class="table__text table__text_theme_dark">Dê enfase a quantidade e velocidade</p>
           </li>
         </ul>  
+      </section>
+
+      <saection class="resources">
+          <h2 class="title">Recursos úteis</h2>
+          <h3 class="subtitle">Material adicional sobre técnicas e hacks de aprendizagem.</h3>
+
+        <ul class="resources__logo-zone">
+          <li><a href="#"><img class="resources__logo"src="images/logo/resources-tedED.png"></a></li>
+          <li><a href="#"><img class="resources__logo" src="images/logo/resources-Medium.png"></a></li>
+          <li><a href="#"><img class="resources__logo" src="images/logo/resources-dezeen.png"></a></li>
+          <li><a href="#"><img class="resources__logo" src="images/logo/resources-goodreads.png"></a></li>
+        </ul>
       </section>
 
     </main>
