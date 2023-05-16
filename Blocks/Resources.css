@@ -21,5 +21,9 @@
   .resources__logo{
     height: 38px;
     width: 270px;
+    transition: 2s ease-out;
+  }
 
+  .resources__logo:hover{
+    opacity: 0.5;
   }

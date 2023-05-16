@@ -1,0 +1,21 @@
+  .subtitle{
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  .section-subtitle_theme_dark{
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-inline: auto;
+    text-align: center;
+    position: relative;
+    margin: 0;
+  }
+
+
+
+  
+ 

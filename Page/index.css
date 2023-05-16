@@ -3,12 +3,16 @@
 @import url(../Blocks/Description.css);
 @import url(../Blocks/Two-columns.css);
 @import url(../Blocks/Techniques.css);
+@import url(../Blocks/Cards.css);
 @import url(../Blocks/Video.css);
 @import url(../Blocks/Oakley.css);
 @import url(../Blocks/Feynman.css);
 @import url(../Blocks/Digits.css);
 @import url(../Blocks/Khan.css);
 @import url(../Blocks/Kaufman.css);
+@import url(../Blocks/Table.css);
+@import url(../Blocks/Section-title.css);
+@import url(../Blocks/Section-subtitle.css);
 @import url(../Blocks/Resources.css);
 @import url(../Blocks/Footer.css);
 @import url(../Blocks/Rotation.css);

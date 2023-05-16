@@ -1,0 +1,18 @@
+.title{
+    line-height: 1.15px;
+    font-size: 60px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .section-title_theme_dark{
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    margin-inline: auto;
+    width: 60%;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }

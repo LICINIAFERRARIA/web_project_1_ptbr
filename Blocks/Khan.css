@@ -42,7 +42,6 @@
     padding-top: 68px;
     display:flex;
     box-sizing: border-box;
-  
   }
 
   .khan__book-pic{
@@ -56,5 +55,10 @@
     width: 620px;
     height: 608px;
     color: #2f80ed;
-    opacity: 0.5;
-  }
+    text-decoration: none;
+    transition: 2s ease-out;
+}
+
+.khan__buy-ink:hover{
+  opacity: 0.5;
+}

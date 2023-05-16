@@ -6,7 +6,6 @@
     width: auto;
     display: flex;
     overflow: hidden;
-      /* parameters for the header section */
   }
   
   .header__title{
@@ -36,8 +35,11 @@
     bottom: 30px;
     text-decoration: none;
     color:#2f80ed;
-    transition: 1s ease-out;
+    transition: 2s ease-out;
+  }
 
+  .header__link:hover{
+    opacity: 0.5;
   }
   
   .header__main-illustration{
@@ -74,14 +76,7 @@ p{
   }
 
 
-  .logo_place_header{
-    position: absolute;
-    z-index: 1;
-    width: 154px;
-    height: 31px;
-    top: 30px;
-    left: 64px;
-  }
+ 
    
 
   
